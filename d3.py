@@ -61,11 +61,15 @@
 #     b=i+b
 # print(b)
 
-# m=3 
-# n=7
-# for i in (m,n+1):
-#     n=n+i
-# print(n)
+# # -------
+# m=3
+# n=6
+# b=0
+# for i in range(m,n+1):
+#     b+=i
+# print(b)   
+        
+        
 
 # #8.Product of m to n Numbers
 # m=2
@@ -80,6 +84,15 @@
 # for i in range(1,n+1):
 #     if n%i==0:
 #         print(i)
+
+# -----------
+# n=6
+# b="  "
+# for i in range(1,n+1):
+#     if n%i==0:
+#         b+=str(i)
+# print(b)
+
 
 # #10.Count of Factors
 # n=6
@@ -144,11 +157,218 @@
 # rev=a[::-1]
 # print(rev)
 
-str='python'
-rev=""
-for ch in str:
-    rev=ch+rev
-print(rev)
+# str='python'
+# rev=""
+# for ch in str:
+#     rev=ch+rev
+# print(rev)
+
+# 16 Check for Palindrome String
+a="madam"
+b=""
+for i in a:
+    b=i+b
+if a==b:
+    print("p")
+else:
+    print("not p")
+
+# # 17. Sum of Digits
+# a="123"
+# b=0
+# for i in a:
+#     b+=int(i)
+# print(b)
+
+# # 18. product of Digits
+# a="123"
+# b=1
+# for i in a:
+#     b*=int(i)
+# print(b)
+
+# # 19. Armstrong Number Check
+# num=153
+# b=num
+# length=0
+# while b>0:
+#     count=b%10
+#     length+=1
+#     b//=10
+# sample=num
+# arm=0
+# while sample>0:
+#     c=sample%10
+#     arm+=c**length
+#     sample//=10
+# if arm==num:
+#     print(arm,"armstrong")
+# else:
+#     print("not armstrong")
+
+
+# # 20. Reverse a Number
+# a='123'
+# b=""
+# for i in a:
+#     b=i+b
+# print(b)
+
+# # 21. Palindrome Number Check
+# a='121'
+# b=""
+# for i in a:
+#     b=i+b
+# if b==a:
+#   print(b,"palindrome")
+# else:
+#     print("not ")
+
+# # without converting string
+# a=121
+# b=a
+# c=0
+# while b>0:
+#     d=b%10
+#     c=c*10+d
+#     b//=10
+# if a==c:
+#     print(c,"palindrome")
+# else:
+#     print(c,"not palindrome")
+
+# # 22. Count Vowels in String
+# fruit="apple"
+# count=0
+# vowels="aeiou"
+# for i in fruit:
+#     if i in vowels:
+#         count+=1
+#     else:
+#         pass
+# print(count)
+    
+# # 23. Count Consonants in String
+# fruit="apple"
+# count=0
+# vowels="aeiou"
+# for i in fruit:
+#     if i in vowels:
+#         pass
+#     else:
+#         count+=1
+# print(count)
+
+# # 24. Count Vowels and Consonants
+# fruit="apple"
+# count1=0
+# count2=0
+# vowels="aeiou"
+# for i in fruit:
+#     if i in vowels:
+#         count1+=1
+#     else:
+#         count2+=1
+# print("vowels are:",count1)
+# print("consonents are:",count2)
+
+
+# 25. Perfect Number Check
+# num = int(input("Enter a number: "))
+# sum = 0
+# for i in range(1,num):
+#     if num%i==0:
+#         sum+=i
+# if sum==num:
+#     print(sum,"is a perfect number")
+# else:
+#     print(sum,"is not a perfect number")
+
+# # 26. Neon Number Check
+# a=9
+# b=a*a
+# c=a
+# sum=0
+# while b>0:
+#     digit=b%10
+#     sum+=digit
+#     b//=10
+# if sum==a:
+#     print('neon')
+# else:
+#     print("not")
+
+# # 27.Strong Number Check
+# num=145
+# temp=num
+# sum=0
+# while temp>0:
+#     fact=1
+#     d=temp%10
+#     for i in range(1,d+1):
+#         fact*=i
+#     sum+=fact
+#     temp//=10
+# if sum==num:
+#     print(sum,"strong number")
+# else:
+#     print("not strong number")
+
+# # 28. Harshad Number Check
+# harsh=int(input("enter number:"))
+# temp=harsh
+# sum=0
+# while temp > 0:
+#     digit=temp%10
+#     sum+=digit
+#     temp//=10
+# if harsh%sum==0:
+#     print(sum,"is a harshed number")
+# else:
+#     print(sum,"is not a harshed number")
+
+
+# # 29.. Fibonacci Series
+# num=5
+# a=0
+# b=1
+# print(a)
+# print(b)
+# for i in range(2,num+1):
+#     c=a+b
+#     a=b
+#     b=c
+#     print(c)
+
+# # 2nd way
+# num=5
+# a=0
+# b=1
+# print(a,end=" ")
+# for i in range(2,num+1):
+#     c=a+b
+#     print(c,end=" ")
+#     a=b
+#     b=c
+
+# 30. Check for Neon Number (Repeated)
+a=9
+temp=a
+b=a*a
+sum=0
+while b>0:
+    digit=b%10
+    sum+=digit
+    b//=10
+if a==sum:
+    print(sum,"is neon number")
+else:
+    print(sum,"not neon")
+
+
+
+
+
 
 # n=4
 # p=1
@@ -181,3 +401,82 @@ print(rev)
 # m=6
 # for i in range(n,m-1,-1):
 #     print(i)
+
+
+# a=20
+# b=3
+# c=15
+# if (a>b and a<c):
+#     print(f"{a} is second largest")
+# elif (b>a and b<c):
+#     print(f"{b} is second largest")
+# else:
+#     print(f"{c} is second largest")
+
+
+
+# m,n=10,30
+# k=" "
+# for i in range(m,n):
+#     for j in range(m,n):
+#         if j%2==0:
+#             # print("not prime")
+#             pass
+#             break
+#     else:
+#         print(j)
+
+# for i in range(1,100):
+#     for j in range(2,i):
+#         if j%i==0:
+#             print("no")
+#         else:
+#            print(j)
+
+
+
+# a=int(input("enter:"))
+# a=100
+# for i in range(10,30):
+#   if i>1:
+#     for j in range(2,i):
+#         if i%j==0:
+#             # print("not prime")
+#             break
+#     else:
+#         print(i,end=" ")
+#   else:
+#     print("not")    
+
+# a=int(input("enter number:"))
+# b=int(input("enter number:"))
+# for i in range(a,b):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#               pass 
+#               break
+#         else:
+#             print(i,end=" ")
+#     else:
+#         print("not ")
+
+# list=[1,2,3,42,5,6,7,8]
+# b=0
+# # if b>list()
+# for i in list:
+#     if i>b:
+#         b=i
+#     else:
+#         pass
+# print(b)
+
+# list1=[1,2,3,4]
+# c=0
+# tot=[ ]
+# for i in list1:
+#     c+=i
+#     tot.append(c)
+# print(tot)
+
+# list=[1,2,3,4]
