@@ -163,15 +163,15 @@
 #     rev=ch+rev
 # print(rev)
 
-# 16 Check for Palindrome String
-a="madam"
-b=""
-for i in a:
-    b=i+b
-if a==b:
-    print("p")
-else:
-    print("not p")
+# # 16 Check for Palindrome String
+# a="madam"
+# b=""
+# for i in a:
+#     b=i+b
+# if a==b:
+#     print("p")
+# else:
+#     print("not p")
 
 # # 17. Sum of Digits
 # a="123"
@@ -351,34 +351,90 @@ else:
 #     a=b
 #     b=c
 
-# 30. Check for Neon Number (Repeated)
-a=9
-temp=a
-b=a*a
-sum=0
-while b>0:
-    digit=b%10
-    sum+=digit
-    b//=10
-if a==sum:
-    print(sum,"is neon number")
-else:
-    print(sum,"not neon")
+# # 30. Check for Neon Number (Repeated)
+# a=9
+# temp=a
+# b=a*a
+# sum=0
+# while b>0:
+#     digit=b%10
+#     sum+=digit
+#     b//=10
+# if a==sum:
+#     print(sum,"is neon number")
+# else:
+#     print(sum,"not neon")
 
 
+# separate letters,numbers,characters
+# isalpha(),isdigit()
+
+# caps=""
+# small=""
+# char=""
+# num=""
+
+# for i in string:
+#     if i.isupper():
+#         caps+=i
+#     elif i.islower():
+#         small+=i
+#     elif i.isdigit():
+#         num+=i
+#     else:
+#         char+=i
+# print(caps)
+# print(small)
+# print(char)
+# print(num)        
 
 
+# ====----------letters and alphabets
+# string="Abc123!@#"
+# sy=""
+# for i in string:
+#     if not i.isalnum():   # if i.isalnum()
+#       sy+=i
+# print(sy)
+
+# -------
+# print(ord("a"))
+# print(chr(97))
 
 
-# n=4
-# p=1
-# for i in range(1,n+1):
-#         p=p*i
-# print(p)
+# string="ABcd@$%123"
+# caps=" "
+# small=" "
+# num=" "
+# symbols=" "
+# count1=0
+# for i in string:
+#     asc=ord(i)
+#     if asc>=65 and asc<=90:
+#         caps+=i
+#         count1+=1
+#     elif asc>=97 and asc<=122:
+#         small+=i
+#     elif asc >=45 and asc<=57:
+#         num+=i
+#     else:
+#         symbols+=i
+# print("capital letters are:",caps,count1)
+# print("small letters are:",small)
+# print("digits :",num)
+# print("symbols are:",symbols)
 
 
-# for i in range(7):
-#  print(i) 
+# ------------------print numbers from 1- 100
+# 🔹 What is '\x01'?
+# '\x01' is a special way to represent a character using its hexadecimal ASCII value.
+# \x → means “hexadecimal escape sequence”
+# 01 → means the hex value 1
+# So '\x01' = the character with ASCII code 1
+
+# for i in range(ord("\x01"),ord("e")):
+#     print(i)
+
 
 
 

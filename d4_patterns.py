@@ -1,16 +1,41 @@
-# # # n=5
-# # # for i in range(1,n):
-# # #     for j in range(1,n):
-# # #         print("*",end=" ")
-# # #     print()
+# # # 1.	Solid Square Pattern
+# n=int(input("enter a number"))
+# for i in range(n):
+#     for j in range(n):
+#         print("*",end=" ")
+#     print()
 
-# # # # neon number
-# # # n=9
-# # # squuare=n*n
-# # # c=0
-# # # while squuare>0:
+# 2.	Solid Rectangle Pattern
+# n=4
+# for i in range(n-1):
+#     for j in range(n+1):
+#           print("* ",end=" ")
+#     print()
 
+# # 3.	Right-Angled Triangle (Left-Aligned)
+# p=5
+# for i in range(p):
+#     for j in range(i+1):
+#         print("*",end=" ")
+#     print()
 
+p=5
+for i in range(p):
+    for j in range(p-i):
+          print(" ",end=" ")
+    for k in range(i):
+         print("*",end=" ")
+    print()
+
+# p=5
+# for i in range(p):
+#     s=""
+#     for j in range(p):
+#         if j==p-1 or i==p-1 or j==p-j:
+#           s+="*"+" "
+#         else:
+#            s+=" "+" "
+#     print(s)
 
 
 
@@ -96,15 +121,16 @@
 #     print(s)
 
 
-# # # -------sqaure
-# # for a in range(n):
-# #     s=" "
-# #     for b in range(n):
-# #         if a==0 or b==0 or b==n-1 or a==n-1:
-# #             s+="\033[94mA\033[0m "
-# #         else:
-# #             s+=" "+" "
-# #     print(s)
+# # -------sqaure
+# n=6
+# for a in range(n):
+#     s=" "
+#     for b in range(n):
+#         if a==0 or b==0 or b==n-1 or a==n-1:
+#             s+="\033[94mA\033[0m "
+#         else:
+#             s+=" "+" "
+#     print(s)
 
 
 # # # ------rectacgle
@@ -129,10 +155,10 @@
 #     print(s)
 
 
-def fun(n):
-    if n==0:    #base condition
-        return
-    else:
-        print(n)   
-        fun(n-1)  
-fun(5)
+# def fun(n):
+#     if n==0:    #base condition
+#         return
+#     else:
+#         print(n)   
+#         fun(n-1)  
+# fun(5)
