@@ -182,3 +182,6 @@
 #     print('palindrome')
 # else:
 #     print("not a palindrome")
+
+print("hbjkl")
+print("gvhbjnkml")
