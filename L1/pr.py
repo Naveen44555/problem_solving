@@ -118,3 +118,31 @@ else:
 #     print(a,"is a prime number")
 # else:
 #     print(a,"is not a prime number")
+
+
+
+
+# a="z"
+# # b=(ord(a)-55)
+# # print(chr(b))
+
+# b="zab"
+# for i in b:
+#     print(chr(ord(i)-32))
+    
+# print(ord("A"))
+# print(ord("B"))
+# print(ord("Z"))
+# print(ord("a"))
+# print(ord("z"))
+
+# num=4700
+# b=num
+# t=b%1000    #600
+# thous=b//1000   #3
+# fiv=t%500
+# f=t//500
+# hun=fiv//100
+
+# print(thous,f,hun)
+
