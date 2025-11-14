@@ -61,12 +61,12 @@
 #             print(i,"not prime")
 # prime(33)
 
-# # 5. Print Armstrong Numbers from m to n Using Function
-# m=53
-# n=500
-# k=[]
-# while m>0:
-#     for i in range(m,n+1):
+# 5. Print Armstrong Numbers from m to n Using Function
+m=53
+n=500
+k=[]
+while m>0:
+    for i in range(m,n+1):
 
 # # armstrong number check
 # m=153
@@ -74,7 +74,6 @@
 # q=0
 # p=str(m)
 # power=len(p)
-
 # while n>0:
 #     digit=n%10
 #     q+=digit**power
@@ -94,7 +93,25 @@
 #         temp//=10
 #         length+=1
 #     print(length)
-# # print(temp)
+# print(temp)
+
+# ------------
+# 5. Print Armstrong Numbers from m to n Using Function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # fibanocci
