@@ -21,11 +21,11 @@
 # # car.owner()
 
 
-class emoployee:
-    name='raju'
-    roll='manager'
-    id=22335
-    location='nlg'
-    salary=20000
+# class emoployee:
+#     name='raju'
+#     roll='manager'
+#     id=22335
+#     location='nlg'
+#     salary=20000
     
 
