@@ -143,148 +143,150 @@
 # res=char(user_input)
 # print(list(res))
 
-# # strong number
-num=145
-dum=num
-res=0
-while dum>0:
-    n=dum%10
-    fact=1
-    for i in range(1,n+1):
-        fact*=i
-    res+=fact
-    dum//=10
-if res==num:
-    print(res,"strong number")
-else:
-     print("not strong number")
 
-
-# perfect number 
-n=int(input("enter:"))
-b=0
-for i in range(1,n):
-       if  n%i==0:
-            b+=i
-if b==n:
-    print(n,"is perfect number")
-else:
-      print(n,"is not perfect number")
-
-# -----------buzz number
-def buzz(n):
-    div=(n%7==0)
-    ends=(n%10==7)
-    if div or ends:
-        print(div,"buzz")
-    else:
-        print("not buzz")
-buzz(7)
-
-# -------2nd way
-num=int(input("enter:"))
-if num%7==0:
-    print("buzz number")
-else:
-    d= num%10
-    if d==7:
-        print(num,"it buzz number")
-    else:
-        print("not buzz number")
-
-
-# -------3rd way
-num4=int(input("enter:"))
-value=1
-if num4%7==0:
-    print("buzz")
-else:
-    while True:
-        value1=num4%10
-        if value1==7:
-            print("buzz num")
-            break
-        else:
-            print("not buzz")
-            break
-
-# -------------
-def val(num):
-    if num%7==0:
-        print("buzz")
-    elif num%10==7:
-        print("buzz")
-    else:
-        print("not buzz")
-val(int(input("number")))
-
-
-def merge(s1,s2):
-    list1=[]
-    i=0
-    j=0
-    while(i<len(s1) or j<len(s2)):
-        if i<len(s1):
-            list1.append(s1[i])
-            i+=1
-        if j<len(s2):
-            list1.append(s2[j])
-            j+=1
-    return "".join(list1)
-print(merge("pavan","kalyan"))
-
-# two dict add--------
-n1={'name':"naveeen"}
-n2={"age":33}
-n3={**n1,**n2}
-print(n3)
-
-# n1={1,2,3}
-# n2={5,6,7}
-# n3={*n1,*n2}
-# print(n3)
-
-# num=int(input("enter:"))
+# # # strong number
+# num=145
 # dum=num
 # res=0
-# while dum > 0:
-#     d=dum%10
+# while dum>0:
+#     n=dum%10
 #     fact=1
-#     for i in range(1,d+1):
+#     for i in range(1,n+1):
 #         fact*=i
 #     res+=fact
 #     dum//=10
 # if res==num:
 #     print(res,"strong number")
 # else:
-#     print(res,"not strong numbere")
- 
-# num=int(input("enter:"))
-# perfect=0
-# for i in range(1,num):
-#     if num%i==0:
-#         perfect+=i
-# if perfect==num:
-#     print(perfect,"perfect number")
+#      print("not strong number")
+
+
+# # perfect number 
+# n=int(input("enter:"))
+# b=0
+# for i in range(1,n):
+#        if  n%i==0:
+#             b+=i
+# if b==n:
+#     print(n,"is perfect number")
 # else:
-#     print(perfect," not perfect number")
+#       print(n,"is not perfect number")
+
+# # -----------buzz number
+# def buzz(n):
+#     div=(n%7==0)
+#     ends=(n%10==7)
+#     if div or ends:
+#         print(div,"buzz")
+#     else:
+#         print("not buzz")
+# buzz(7)
+
+# # -------2nd way
+# num=int(input("enter:"))
+# if num%7==0:
+#     print("buzz number")
+# else:
+#     d= num%10
+#     if d==7:
+#         print(num,"it buzz number")
+#     else:
+#         print("not buzz number")
 
 
-# def names(s1,s2):
-#     lst=[]
+# # -------3rd way
+# num4=int(input("enter:"))
+# value=1
+# if num4%7==0:
+#     print("buzz")
+# else:
+#     while True:
+#         value1=num4%10
+#         if value1==7:
+#             print("buzz num")
+#             break
+#         else:
+#             print("not buzz")
+#             break
+
+# # -------------
+# def val(num):
+#     if num%7==0:
+#         print("buzz")
+#     elif num%10==7:
+#         print("buzz")
+#     else:
+#         print("not buzz")
+# val(int(input("number")))
+
+
+# def merge(s1,s2):
+#     list1=[]
 #     i=0
 #     j=0
 #     while(i<len(s1) or j<len(s2)):
 #         if i<len(s1):
-#             lst.append(s1[i])
+#             list1.append(s1[i])
 #             i+=1
 #         if j<len(s2):
-#             lst.append(s2[j])
+#             list1.append(s2[j])
 #             j+=1
-#     return "".join(lst)
-# print(names("pavan","kalyan"))
+#     return "".join(list1)
+# print(merge("pavan","kalyan"))
 
+# # two dict add--------
+# n1={'name':"naveeen"}
+# n2={"age":33}
+# n3={**n1,**n2}
+# print(n3)
+
+# n1={1,2,3}
+# n2={5,6,7}
+# n3={*n1,*n2}
+# print(n3)
 
                   
 
+# matrix = [[1,2],[3,4],[5,6]]
+# for row in matrix:
+#     print(row,"l")
+#     for  element in row:
+#         print(element,end="")
+
+# # output--------
+# [1, 2] l
+# 1
+# 2
+# [3, 4] l
+# 3
+# 4
+# [5, 6] l
+# 5
+# 6
+
+# # ---------------
+# # 2.
+# matrix = [[1.2],[3.4],[5.6]]
+# for row in matrix:
+#     print(row,"l")
+#     for  element in row:
+#         print(element)
+# # output--------
+# [1.2] l
+# 1.2
+# [3.4] l
+# 3.4
+# [5.6] l
+# 5.6
+
+# # -------
+# matrix = [[1,2],[3,4],[5,6]]
+# for row in matrix:
+#     for  element in row:
+#         print(element,end=" ")
+#     print()
+# # op------------
+# # 1 2 
+# # 3 4 
+# # 5 6
 

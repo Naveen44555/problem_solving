@@ -1,6 +1,9 @@
-# a=1,2,3,4
-# print(type(a))
 
+
+
+
+# a=0
+# print(type(a))
 # a=(2,5,6)
 # print(type(a))
 

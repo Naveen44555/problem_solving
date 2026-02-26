@@ -536,3 +536,91 @@
 # print(tot)
 
 # list=[1,2,3,4]
+
+
+
+# ----------------------
+# n=5
+# b=1
+# for i in range(1,n+1):
+#     b=b*i
+# print(b)
+
+
+# n=7
+# if n>1:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print("not")
+#             break
+#     else:
+#         print("prime")
+# else:
+#     print("not pr")
+
+
+
+# a="hello"
+# # print(a[::-1])
+# b=""
+# for i in a:
+#     b=i+b
+# print(b)
+
+# a=int(input("enter"))
+# if a>1:
+#     for i in range(2,a):
+#         if a%i==0:
+#             print("not prime")
+#             break
+#     else:
+#         print('prim')
+# else:
+#     print('nt')
+
+# count=0
+
+# for i in range(1,a+1):
+#     if a%i==0:
+#             count+=1
+# if count==2:
+#     print("prime")
+# else:
+#     print("not prime")
+     
+
+# a=int(input("enter"))
+# if a>1:
+#     for i in range(2,a):
+#         if a%i==0:
+#             print("nott")
+#             break
+#     else:
+#         print("prime")
+# else:
+#     print("num is 1 or lessthan 1 not prime")
+
+# count=0
+# if a>1:
+#     for i in range(2,a+1):
+#         if a%i==0:
+#             count+=1
+#         else:
+#             count+=1
+# if count==2:
+#     print("prime")
+# else:
+#     print("not ")
+
+# a=int(input("enter"))
+# b=[]
+# if a>1:
+#     for i in range(2,a):
+#         if a%i==0:
+#             pass
+#     else:
+#         b.append(i)
+# else:
+#     print("it is 1 or less than 1")
+
+

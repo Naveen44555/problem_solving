@@ -183,3 +183,39 @@
 #     leap=False
 
 
+
+# memers=102
+# mem=memers//5
+# if memers%5==0:
+#     print("memers need",mem,"cars")
+# else:
+#     print("memers need",mem+1,"cars")
+
+
+# memb=int(input("enter persons"))
+# cars=memb//5
+# if memb%5!=0:
+#     cars+=1
+# print(memb,"persons required :",cars,"cars")
+
+# import math
+# mem=14
+# cars=math.ceil(mem/5)
+# print(cars)
+
+
+# num=int(input('year'))
+# if num%400==0:
+#     print('leap 400')
+# elif num%100==0:
+#     print("not")
+# elif num%4==0:
+#     print('leap 4')
+# else:
+#     print('nnnnot')
+
+y=int(input('year'))
+if (y%400==0) or (y%4==0) and (y%100!=0):
+    print('leap')
+else:
+    print("not")
