@@ -253,4 +253,150 @@
 #         c.append(b)
 # print(c[-2],c)
 
+# array=[89,499,6,984,33,56]
+# b=array[0]
+# c=b
+# for i in array:
+#     if i>b:
+#         c=b
+#         b=i
+# print(c)
+
+# array=[89,499,6,984,33,56]
+# array.sort(reverse=True)
+# print(array)
+
+# words = ["banana", "apple", "cherry"]
+# words.sort()
+# print(words)
+
+# numbers = [5, 2, 9, 1, 7]
+# new_list = sorted(numbers)
+# print(new_list)
+
+# array=[89,499,6,84,33,56]
+# largest=array[0]
+# i=1
+# while i<len(array):
+#     if array[i]>largest:
+#         largest=array[i]
+#     i+=1
+# print(largest)
+
+
+# a=[33,0,988,3,43,323,4]
+# first=a[0]
+# second=0
+# i=1
+# while i<len(a):
+#     if a[i]>first:
+#         second=first
+#         first=a[i]
+#     elif a[i]>second and a[i]!=first:
+#         second=a[i]
+#     i+=1
+# print(first)
+# print(second)
+
+# float('inf') → biggest possible value
+# float('-inf') → smallest possible value
+
+# a=[3045,3,45,6,7,33,5866,798]
+# first=second=third=float('-inf')
+# print(first)
+# i=0
+# while i<len(a):
+#     if a[i]>first:
+#         third=second
+#         second=first
+#         first=a[i]
+#     elif a[i]>second and a[i]!=first:
+#         third=second
+#         second=a[i]
+#     elif a[i]>third and a[i]!=second and a[i]!=first:
+#         third=a[i]
+#     i+=1
+# print(first,second,third)
+
+
+# a=[33,4600,74,3,19,2,9087]
+# first=a[0]
+# sec=first
+# i=0
+# while i <len(a):
+#     if a[i]<first:
+#         sec=first
+#         first=a[i]
+#     elif a[i]<sec and a[i]!=first:
+#         sec=a[i]
+#     i+=1
+# print(first,sec)
+
+# a=[333,223,650,7,344,56,987]
+# first=sec=third=float("inf")
+# i=0
+# while i<len(a):
+#     if a[i]<first:
+#         third=sec
+#         sec=first
+#         first=a[i]
+#     elif a[i]<sec and a[i]!=first:
+#         third=sec
+#         sec=a[i]
+#     elif a[i]<third and a[i]!=sec and a[i]!=first:
+#         third=a[i]
+#     i+=1
+# print(first,sec,third)
+
+# a=4
+# b=4
+# for i in range(a):
+#     for j in range(b+3):
+#         print("*",end=" ")
+#     print()
+
+# n=4
+# for i in range(0,n+1):
+#     for j in range(n-i):
+#         print("#",end=" ")
+#     print()
+
+# # pyramid
+# n=4
+# for i in range(1,n+1):
+#     for j in range(n):
+#         print(" " ,end=" ")
+#     for k in range(i):
+#         print("* ",end=" ")
+#     print()
+
+
+
+
+
+# a={"name":"naveen","age":23}
+# print(a[0])
+# print(a.keys())
+# print(a.values())
+# print(a.items())
+
+
+# a=10
+# for i in range(1,a+1):
+#     for j in range(1,a+1):
+#          print(f'{i} x {j} = {i*j}')
+#     print()
+
+# a=int(input("enter:"))
+# temp=a
+# c=0
+# while temp>0:
+#     d=temp%10
+#     c+=d**len(str(a))
+#     temp//=10
+# if c==a:
+#     print(c,"armstrong")
+# else:
+#     print("not")
+
 
