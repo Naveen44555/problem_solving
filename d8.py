@@ -141,11 +141,340 @@
 # aa=[]
 # for i in a14:
      
-a = [1, 2, 3]
-b = [1, 2, 3]
+# a = [1, 2, 3]
+# b = [1, 2, 3]
 
-print(id(a))
-print(id(b))
+# print(id(a))
+# print(id(b))
 
 # print(a is b)   # False  (stored in different memory locations)
 
+# a=[1,2,3]
+# a.append(4)
+# print(a)
+
+# a=[1,2,3]
+# a.remove(3)
+# print(a)
+
+# a=[3,2,343,2,4,10,2]
+# print(max(a))
+# print(min(a))
+
+# print(sum(a))
+# print(a.count(2))
+
+# a=[3,2,343,2,4,10,2]
+# l=len(a)-1
+# b=[]
+# for i in range(l,-1,-1):
+#     b.append(a[i])
+# print(a)
+
+
+# print(a[::-1])
+
+# # 8
+# a=[2,1,4,3]
+# a.sort()
+# print(a)
+
+# a=[1,2,2,3,4,4]
+# b=[]
+# # a.set()
+# for i in a:
+#     if i not in b:
+#         b.append(i)
+# print(b)
+
+# print(list(set(a)))
+
+# print(list(dict.fromkeys(a)))
+
+# a=[1,2,3]
+# b=[4,5,6]
+# print(a+b)
+
+# a.extend(b)
+# print(a)
+
+# a=[1,2,3]
+# b=[2,3,6]
+# c=[]
+# for i in a:
+#     if i in b:
+#         c.append(i)
+# print(c)
+
+# a=[1,2,3,4]
+# b=[]
+# for i in a:
+#     if (i//2)*2==i:
+#         b.append(i)
+# print(b)
+
+# a=[2,3,4,5,6]
+# b=[]
+# for i in a:
+#     if i & 1!=0:
+#         b.append(i)
+# print(b)
+
+
+# a=[1,2,3,10]
+# b=[]
+# for i in range(len(a)-1):
+#     if a[i]>1:
+#         for j in range(2,a[i]):
+#             if a[i]%j==0:
+#                  break                 
+#         else:
+#             b.append(a[i])
+# print(b)    
+    
+
+# a=[0,3,4,0]
+# pos=neg=zero=0
+# for i in a:
+#     if i==0:
+#         zero+=1
+#     elif i>0:
+#         pos+=1
+#     elif i<0:
+#         neg+=1
+# print(pos,neg,zero)
+
+
+# a=[-2,-44,-23,-54,-43,9,0,-37]
+# largest=a[0]
+# for i in a:
+#     if i>largest:
+#         largest=i
+# print(largest)
+
+# a=[2,844,23,54,8,43,99,37]
+# largest=a[0]
+# sec_largest=largest
+# for i in a:
+#     if i>largest:
+#         sec_largest=largest
+#         largest=i
+#     elif i>sec_largest and i!=largest:
+#         sec_largest=i
+# print(sec_largest)
+
+# a=[-2,844,23,94,8,43,-99,37]
+# largest=sec_largest=third_larg=float("-inf")
+# for i in a:
+#     if i>largest:
+#         third_larg=sec_largest
+#         sec_largest=largest
+#         largest=i
+#         print(largest,"ll")
+#     elif i>sec_largest and i!=largest:
+#         third_larg=sec_largest
+#         sec_largest=i
+#     elif i>third_larg and i!=largest and i!=sec_largest:
+#         third_larg=i
+# print(largest,sec_largest,third_larg)
+
+# a=[-2,-844,23,94,0,43,99,37]
+# smallest=sec_small=third_small=float("inf")
+# for i in a:
+#     if i<smallest:
+#         third_small=sec_small
+#         sec_small=smallest
+#         smallest=i
+#     elif i<sec_small and i!=smallest:
+#         third_small=sec_small
+#         sec_small=i
+#     elif i<third_small and i!=sec_small and i!=smallest:
+#         third_small=i
+# print(smallest,sec_small,third_small)
+
+# a=[1,2,3]
+# b=a.copy()
+# c=a[:]
+# # b.append(4)
+# print(b,a,c)
+
+# a=[1,2,3,4,5]
+# b=[]
+# for i in a:
+#     if i>1:
+#       for j in range(2,i):
+#          if i%j==0:
+#             break
+#       else:
+#          b.append(i)
+# print(b)
+
+# a=[0,2,0,3]
+# for i in range(len(a)):
+#     if a[i]==0:
+#         a[i]=-1
+# print(a)
+
+# a=[5,5,5,5]
+# b=a[0]
+# c=True
+# for i in range(len(a)):
+#     if a[i]!=b:
+#         c=False
+# print(c)
+
+# a=[1,2,3,4,2,1,4]
+# freq={}
+# for i in a:
+#     if i in freq:
+#         freq[i]+=1
+#     else:
+#         freq[i]=1
+# print(freq)
+
+# ------------------------
+# a=[1,2,3,3,4,4,2]
+# b={}
+# for i in a:
+#     if i in b:
+#         b[i]+=1
+#     else:
+#         b[i]=1
+# print(b)
+
+# a=[[1,2],[3,4]]
+# b=[]
+# for i in a:
+#     for j in i:
+#        b.append(j)
+# print(b)
+
+# a=[1,2,3,4,5]
+# even=[]
+# odd=[]
+# for i in a:
+#     if (i//2)*2==i:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print(even,odd)
+
+# a=[1,2,3,4]
+# target=5
+# pairs=[]
+# for i in range(len(a)):
+#     for j in range(i+1,len(a)):
+#         if a[i]+a[j]==target:
+#             pairs.append((a[i],a[j]))
+# print(pairs)
+
+# a=[1,2,3,4,5]
+# b=[]
+# c=[]
+# for i in a:
+#     if (i//2)*2==i:
+#         b.append(i)
+#     else:
+#         c.append(i)
+# print(b,c)
+
+# a=[1,2,3,4,5]
+# b=[]
+# for i in a:
+#     e=i*2
+#     b.append(e)
+# print(b)
+
+# a=[4,1,2,7]
+# larg=max(a)
+# smal=min(a)
+# for i in range(larg):
+#     if i+smal==larg:
+#         print(i,"diff")
+
+# a=[2]
+# # if len(a)==0:
+# #     print("empty")
+
+# if not a:
+#     print("emp")
+
+# def empty(a):
+#     if len(a)==0:
+#        return True
+#     else:
+#         return False
+# print(empty([]))
+
+# a=[1,2,3,4]
+# a.insert(2,33)
+# print(a)
+
+# a=[1,2,2,3,3]
+# # a.remove(2)
+# # print(a)
+
+# while 2 in a:
+#     a.remove(2)
+# print(a)
+
+# # 32
+# a=[2,3,4,5]
+# print(a.index(4))
+
+# a=[2,3,4]
+# b=[]
+# for i in a:
+#     e=i**2
+#     b.append(e)
+# print(b)
+    
+# # 35
+# a=[2,-3,-6,9,-8]
+# b=[]
+# for i in a:
+#     if i>0:
+#         b.append(i)
+# print(b)
+
+# a=[2,4,64,33,557,7,4]
+# b=[]
+# for i in a:
+#     if i>33:
+#         b.append(i)
+# print(b)
+
+# a=[1,22,22,33,22,5,33]
+# b=[]
+# c=[]
+# for i in a:
+#     if i in b and i not in c:
+#         c.append(i)
+#         # continue
+#     else:
+#         b.append(i)
+# print(c)
+
+# a=[1,2,3,4]
+# k=2
+# b=[]
+# for i in range(k,len(a)):
+#     b.append(a[i])
+# for j in range (k):
+#     b.append(a[j])
+# print(b)
+
+a=[1,2,3,4,5,6]
+b=[]
+c=0
+size=2
+for i in range(c,len(a)//2):
+    b.append([a[c],a[c+1]])
+    c+=2
+print(b)
+
+a = [1,2,3,4,5,6,7,8]
+b = []
+for i in range(0, len(a), 2):
+    b.append([a[i], a[i+1]])
+print(b)

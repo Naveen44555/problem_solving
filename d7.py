@@ -329,3 +329,287 @@
 
 
 
+# a="he llo wo rld"
+# for i in a:
+#     if i==" ":
+#         pass
+#     else:
+#         print(i,end="")
+
+# a="he llo wo rld"
+# b=len(a)-1
+# c=0
+# while b>=0:
+#     if a[c]==" ":
+#         pass
+#     else:
+#         print(a[c],end="")
+#     b-=1
+#     c+=1
+
+# a="hello"
+# b=""
+# for i in a:
+#     b=i+b
+# print(b)
+
+# a="hello"
+# b=len(a)-1
+# c=""
+# while b>=0:
+#     c+=a[b]
+#     b-=1
+# print(c)
+
+# a="hello,world"
+# b=a.split()
+# print(b)
+
+# a="he llo world"
+# b=""
+# for i in a:
+#     if i==" ":
+#         continue
+#     b=i+b
+# print(b)
+
+# a="he llo world"
+# b=len(a)-1
+# c=""
+# i=0
+# while b>=0:
+#     if a[b]==" ":
+#         pass
+#     else:
+#         c+=a[b]
+#     i+=1
+#     b-=1
+# print(c)
+
+# 4.
+# string1="my_variable_name"
+# str2=""
+# cond=False
+# for i in string1:
+#     if i=="_":
+#         cond=True
+#         continue
+#     if cond:
+#         str2+=i.upper()
+#         cond=False
+#     else:
+#         str2+=i
+# print(str2)
+
+# # 5
+# str1="my_variable_name"
+# str2=""
+# cond=False
+# for i in range(len(str1)):
+#     if i==0:
+#         str2+=str1[i].upper()
+#     elif str1[i]=="_":
+#         cond=True
+#     elif cond:
+#         str2+=str1[i].upper()
+#         cond=False
+#     else:
+#         str2+=str1[i]
+# print(str2)
+          
+    
+# # 6
+# a="myVariableName"
+# b=""
+# cond=False
+# for i in range(len(a)):
+#     if a[i]==a[i].upper():
+#         b+="_"
+#         b+=a[i].lower()
+#     else:
+#        b+=a[i]
+# print(b)
+
+# 7
+# a="myVariable"
+# b=""
+# for i in range(len(a)):
+#     if i==0:
+#         b+=a[i].upper()
+#     else:
+#         b+=a[i]
+# print(b)
+
+# # 8
+# a="MyVariable"
+# b=""
+# for i in range(len(a)):
+#     if i==0:
+#         b+=a[i].lower()
+#     else:
+#         b+=a[i]
+# print(b)
+
+# # 9
+# a="MyVariable"
+# b=""
+# for i in range(len(a)):
+#     if i==0:
+#         b+=a[i].lower()
+#     elif a[i]==a[i].upper():
+#         b+="_"
+#         b+=a[i].lower()
+#     else:
+#         b+=a[i]
+# print(b)
+
+# 10
+# a="hello world example"
+# b=""
+# cond=False
+# for i in range(len(a)):
+#     if a[i]==" ":
+#          cond=True 
+#         #  continue 
+#     elif cond:
+#          b+=a[i].upper()
+#          cond=False
+#     else:
+#          b+=a[i]
+# print(b)
+
+# 11   
+# a="hello world example"
+# b=""
+# for i in range(len(a)):
+#     if a[i]==" ":
+#         b+="_"
+#     else:
+#         b+=a[i]
+# print(b)
+
+# # 12
+# a="hello world example"
+# b=""
+# cond=False
+# for i in range(len(a)):
+#     if i==0:
+#         b+=a[i].upper()
+#     elif a[i]==" ":
+#         cond=True
+#     elif cond:
+#         b+=a[i].upper()
+#         cond=False
+#     else:
+#         b+=a[i]
+# print(b)
+
+# a="HeLLo"
+# b=""
+# for i in a:
+#     if i==i.upper():
+#         b+=i.lower()
+#     else:
+#         b+=i.upper()
+# print(b)
+
+# print(ord("Z"))
+# print(chr(99))
+
+# a="HeLLo"
+# b=""
+# for i in a:
+#     if "A" <=i <="Z":
+#         b+=chr(ord(i)+32)
+#     else:
+#         b+=chr(ord(i)-32)
+# print(b)
+
+# # 14
+# a="abc1234d"
+# b=""
+# for i in a:
+#     if "0"<=i<="9":
+#         b+=i
+# print(b)
+
+# char="ABcd123!@#"
+# caps=""
+# small=""
+# digits=""
+# symb=""
+# for i in char:
+#     if "A"<=i<="Z":
+#         caps+=i
+#     elif "a"<=i<="z":
+#         small+=i
+#     elif "0"<=i<="9":
+#         digits+=i
+#     else:
+#         symb+=i
+# print(caps,small,digits,symb)
+
+# char="ABcd123!@#"
+# caps=""
+# small=""
+# digits=""
+# symb=""
+# for i in char:
+#     if "a"<=i<="z":
+#         small+=i
+#     elif "A"<=i<="Z":
+#         caps+=i
+#     elif "0" <=i<="9":
+#         digits+=i
+#     else:
+#         symb+=i
+# print(caps,small,digits,symb)
+
+
+# password=input()
+# caps=0
+# small=0
+# dig=0
+# symb=0
+# if len(password):
+#     for i in password:
+#         if "A"<=i<="Z":
+#             caps+=1
+#         elif "a"<=i<="z":
+#             small+=1
+#         elif "0"<=i<="9":
+#             dig+=1
+#         else:
+#             symb+=1
+#     if caps>=1 and small>=1 and dig>=1 and symb>=1:
+#         print("strong password")
+#     else:
+#         print("weak password")
+# else:
+#      print("weak password")
+
+# 18
+# a="aabbcc"
+# b=""
+# for i in a:
+#     if i not in b:
+#        b+=i
+# print(b)
+
+# a="aabbcced"
+# b=""
+# c=""
+# for i in a:
+#     if i not in b:
+#         b+=i
+#     else:
+#         c+=i
+# print(c)
+
+# a="abc"
+# b=""
+# for i in a:
+#     if "a"<=i<="z":
+#         b+=chr(ord(i)+1)
+# print(b)
+    

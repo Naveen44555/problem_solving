@@ -51,21 +51,21 @@
 #     print("not")
 
 
-# # while
-# n=int(input("enter:"))
-# count=0
-# i=0
-# if i>0:
-#     while i<=n:
-#         if n%i==0:
-#             count+=1
-#         i+=1
-#     if count==2:
-#         print("prime")
-#     else:
-#         print("not")
-# else:
-#     print("not")
+# while
+n=int(input("enter:"))
+count=0
+i=0
+if i>0:
+    while i<=n:
+        if n%i==0:
+            count+=1
+        i+=1
+    if count==2:
+        print("prime")
+    else:
+        print("not")
+else:
+    print("not")
 
 
 # a="radar"
@@ -86,15 +86,7 @@
 
 
 # -------
-# a="radar"
-# b=""
-# for i in a:
-#     b=i+b
-# if b==a:
-#     print(b,"pal")
-# else:
-#     print("not")
-    
+
 # b="radar"
 # c=""
 # d=len(b)-1
@@ -372,8 +364,6 @@
 
 
 
-
-
 # a={"name":"naveen","age":23}
 # print(a[0])
 # print(a.keys())
@@ -399,4 +389,21 @@
 # else:
 #     print("not")
 
+
+# roman_values = {
+#     'I': 1,'V': 5,'X': 10,'L': 50,'C': 100,'D': 500,'M': 1000,
+# }
+
+# def roman_to_int(s):
+#     s = s.upper()
+#     total = 0
+#     prev_value = 0
+#     for ch in reversed(s):
+#         value = roman_values.get(ch, 0)
+#         if value < prev_value:
+#             total -= value
+#         else:
+#             total += value
+#         prev_value = value
+#     return total
 

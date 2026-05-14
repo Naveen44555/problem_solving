@@ -1,3 +1,5 @@
+
+
 # #1. Check Even or Odd
 # num=6
 # if num % 2==0:
@@ -214,8 +216,85 @@
 # else:
 #     print('nnnnot')
 
-y=int(input('year'))
-if (y%400==0) or (y%4==0) and (y%100!=0):
-    print('leap')
-else:
-    print("not")
+# y=int(input('year'))
+# if (y%400==0) or (y%4==0) and (y%100!=0):
+#     print('leap')
+# else:
+#     print("not")
+
+
+# a=[1,2,4,5]
+# for i in range(len(a)):
+#     if a[i+1] != a[i]+1:
+#         print(a[i]+1,"miss")
+
+# a = [1, 2, 4, 5]
+# for i in range(len(a) - 1):
+#     if a[i+1] != a[i] + 1:
+#         print(a[i] + 1, "missing")
+
+
+# a=[1,2,3,4,5,7]
+# leng=len(a)
+# for i in range(leng):
+#     b=a[i]+1
+#     if a[i+1] == b:
+#         print()
+#     else:
+#         print(b,"miss")
+
+
+# a=int(input())
+# if (a//2)*2==a:
+#     print("even")
+# else:
+#     print("odd")
+
+
+# def check_even_odd(n):
+#     return "even" if n%2==0 else "odd"
+# print(check_even_odd(4))
+
+# if a & 1==0:
+#     print("even")
+# else:
+#     print('odd')
+
+# import math
+# num=int(input())
+# root=int(math.sqrt(num))
+# print(root)
+# if root*root == num:
+#     print("p sq",root)
+# else:
+#     print("not p sq")
+
+# persons=int(input("enter"))
+# cars=persons//5
+# if persons%5 !=0:
+#     cars+=1
+# print(cars,"required")
+
+# year=int(input())
+# if (year%4==0 and year%100!=0) or (year%400==0):
+#     print("leap")
+# else:
+#     print("not")
+
+
+# num=int(input())
+# b=num
+# tot=0
+# while b>0:
+#     c=b%10
+#     fact=1
+#     i=1
+#     while i<=c:
+#         fact*=i
+#         i+=1
+#     b=b//10
+#     print(fact)
+#     tot+=fact
+#     print(tot)
+
+

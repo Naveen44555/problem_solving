@@ -1,4 +1,3 @@
 
-# value=str(a)
-# print(f"highest_value: {max(value)}")
-# print(f"Lowest_value: {min(value)}")
+    s = input('Enter Roman numeral: ').strip()
+    print(roman_to_int(s))

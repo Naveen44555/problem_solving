@@ -624,3 +624,332 @@
 #     print("it is 1 or less than 1")
 
 
+# n=10
+# m=6
+# for i in range(n,m-1,-1):
+#     print(i)
+
+# n=5
+# m=1
+# for i in range(1,n+1):
+#     m*=i
+# print(m)
+
+# m=3
+# n=6
+# z=0
+# for i in range(m,n+1):
+#     z+=i
+# print(z)
+
+# m=2
+# n=4
+# z=1
+# for i in range(m,n+1):
+#     z*=i
+# print(z)
+
+# n=6
+# z=0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         z+=1
+#         print(i,end=" ")
+# print()
+# print(z)
+
+
+# n=int(input("enter:"))
+# if n>1:
+#     for i in range(2,n):
+#         if n%i==0:
+#             print(i,"not")
+#             break
+#     else:
+#         print("prime")
+# else:
+#     print("ypu",n)
+
+
+# n=int(input("enter:"))
+# count=0
+# for i in range(1,n+1):
+#     if n%i==0:
+#         count+=1
+# print(count)
+# if count==2:
+#     print("prime")
+# else:
+#     print("not")
+
+
+# n=int(input("enter::"))
+# i=2
+# count=1
+# while i <=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("pr")
+# else:
+#     print("not p")
+
+
+# n=int(input("enter::"))
+# i=1
+# count=0
+# while i<=n:
+#     if n%i==0:
+#         count+=1
+#     i+=1
+# if count==2:
+#     print("pri")
+# else:
+#     print("not p")
+
+# n=int(input("enter::"))
+# for i in range(2,n+1):
+#     for j in range(2,i):
+#       if i%j==0:
+#         break
+#     else:
+#         print(i)
+         
+# m=3
+# n=7
+# even,odd=0,0
+# for i in range(m,n+1):
+#     if i%2==0:
+#         # print(i,end=" ")
+#         even+=1
+#     else:
+#         odd+=1
+# print(even,odd)
+
+
+# a="naveen"
+# b=""
+# for i in a:
+#     b=i+b
+# print(b)
+
+# print(a[::-1])
+# print(a[0:6:2])
+# print(a[::1])
+
+
+# a="madam"
+# b=""
+# for i in a:
+#     b=i+b
+# if b==a:
+#     print("pal",b)
+# else:
+#     print("not")
+
+# a="madam"
+# b=a[::-1]
+# if b==a:
+#     print(b,"pal")
+# else:
+#     print("nto")
+
+# a="madam"
+# b=len(a)-1
+# i=0
+# c=""
+# while i<=b:
+#     c+=a[b-i]
+#     print(c)
+#     i+=1
+# if c==a:
+#     print("pal",c)
+# else:
+#     print("not")
+    
+# a=input()
+# b=len(a)-1
+# i=0
+# c=True
+# while i <=b:
+#     if a[i]!=a[b]:
+#         # print("not")
+#         c=False
+#         break
+#     i+=1
+#     b-=1
+# if c:
+#     print("pal")
+# else:
+#     print("not")
+
+ 
+# a=str(input())
+# b=len(a)-1
+# i=0
+# c=""
+# while i<=b:
+#     c+=a[b-i]
+#     i+=1
+# if c==a:
+#     print("pal")
+# else:
+#     print("not")
+
+# a="madam"
+# b=len(a)-1
+# c=""
+# i=0
+# while i<=b:
+#     c+=a[b-i]
+#     i+=1
+# if c==a:
+#     print("p")
+# else:
+#     print("not")
+
+
+
+
+
+# a=int(input())
+# i=0
+# c=0
+# while a>0:
+#     d=a%10
+#     c+=d
+#     a=a//10
+#     i+=1
+# print(c)
+
+
+# a=[1,2,3,5]
+# n=len(a)+1
+# c=n*(n+1)//2
+# s=sum(a)
+# tot=c-s
+# print(tot)
+
+# a=[1,2,3,5,7]
+# b=len(a)-1
+# for i in range(b):
+#     if a[i]+1!=a[i+1]:
+#         print(a[i]+1,"miss")
+
+  
+# a=int(input())
+# c=1
+# while a>0:
+#     d=a%10
+#     c*=d
+#     a//=10
+# print(c)
+
+# 0, 1, 153, 370, 371, 407 → Armstrong
+# a=int(input())
+# b=a
+# leng=0
+# while b>0:
+#     leng+=1
+#     b=b//10
+# c=a
+# tot=0
+# while c>0:
+#     d=c%10
+#     tot+=d**leng
+#     c=c//10
+# if tot==a:
+#     print(tot,"armstr")
+# else:
+#     print("not",tot)
+
+
+# n=int(input())
+# rev=0
+# while n>0:
+#     d=n%10
+#     rev=rev*10+d
+#     n//=10
+# print(rev)
+
+# a=int(input())
+# b=a
+# c=0
+# while b>0:
+#     d=b%10
+#     c=c*10+d
+#     b//=10
+# if c==a:
+#     print("pal",c)
+# else:
+#     print("not",c)
+
+# a="apple"
+# vowels="aeiou"
+# count=0
+# for i in a:
+#     if i in vowels:
+#         count+=1
+# print(count)
+
+# a="apple"
+# v="aeiou"
+# count=0
+# for i in a:
+#     if i not in v:
+#         count+=1
+# print(count)
+
+
+# num=int(input())
+# count=0
+# for i in range(1,num):
+#     if num%i==0:
+#         count+=i
+# if count==num:
+#     print("perf",count)
+# else:
+#     print("not ")
+
+# n=int(input())
+# b=n*n
+# c=b
+# tot=0
+# while c>0:
+#     d=c%10
+#     tot+=d
+#     c//=10
+# if tot==n:
+#     print("neon",tot)
+# else:
+#     print("not")
+
+# ----------------
+# num=145
+# a=num
+# d=1
+# while a>0:
+#     digit=a%10
+#     fact=0
+#     i=1
+#     while 
+    
+#     a//=10
+# print(fact)
+
+n=int(input())
+a=0
+b=1
+for i in range(n):
+    print(a,end="")
+    a,b=b,a+b
+
+# n=int(input())
+# a=0
+# b=1
+# while n>0:
+#     print(a,end=" ")
+#     a,b=b,a+b
+#     n-=1
+    

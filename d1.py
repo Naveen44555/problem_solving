@@ -1,3 +1,64 @@
+# # find second largest
+# arr=[2,23,4,35,4,469,3,22,42,624,252]
+# first=sec=float("-inf")
+# for i in arr:
+#     if i>first:
+#         sec=first
+#         first=i
+#     elif i>sec:
+#         sec=i
+# print(f"Second largest: {sec}")
+
+
+# 3
+# 4 5 6 7 8
+
+# n=int(input())
+# values = list(map(int,input().split()))
+# # for i in len(values):
+# print(values)
+
+
+# a, b = map(int, input().split())
+# print(a + b)
+
+
+# arr=input().strip("[]").replace("'","").split("")
+# print(arr)
+
+# arr=input().replace("'","")
+# print(arr)
+
+
+# n1=int(input())
+# arr=[]
+# for i in range(n1):
+#     n2=int(input("enter:"))
+#     arr.append(n2)
+# print(arr)
+
+
+# arr2=[2,23,4,35,4,46,3,22,42,24,252]
+# first=sec=float("-inf")
+# for i in arr:
+#     if i>first:
+#         sec=first
+#         first=i
+#     elif 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
 # #1.area of square
 # side=5
 # area=side*side
@@ -74,7 +135,36 @@
 # print("average :",round(t,4))
 
 
-members=int(input("enter"))
-memb=members//5
+# members=int(input("enter"))
+# memb=members//5
 
 
+# # ---------------
+# side =5
+# area = side * side
+# print(area)
+
+# amount=3700
+# th=amount //1000
+# rem=amount % 1000
+# hun=rem //500
+# change=rem%500
+# print(th,hun,change)
+
+# tot=3672
+# h=tot //60
+# hours=h // 60
+# min = h % 60
+# sec = tot % h
+# print(hours,min,sec)
+
+# tot =3672
+# h= tot // 60
+# hours = h//60
+# min=h%60
+# sec=tot % h
+# print(hours,min,sec)
+
+# m,p,ch=85,90,88
+# tot=(m+p+ch)/3
+# print(round(tot,3))

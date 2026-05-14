@@ -1,5 +1,12 @@
-
-
+# num="53995"
+# digit="5"
+# max_num=""
+# for i in range(len(num)):
+#     if num[i] == digit:
+#         new_num=num[:i] + num[i+1:]
+#         if new_num > max_num:
+#             max_num = new_num
+# print(max_num)
 
 
 # a=0
@@ -18,6 +25,8 @@
 #     else:
 #        print(i)
 # print(b)
+
+
 
 # a=10
 # b=0
@@ -136,3 +145,218 @@
 #         print("prime number:",i)
 #     elif count>2:
 #         print("composite number:",i)
+
+# ---------------------nnnnnnew
+
+# m=10
+# n=30
+# for i in range(m,n+1):
+#     for j in range(2,i):
+#         if i%j==0:
+#             break
+#     else:
+#        print(i)
+    
+# m=int(input())
+# n=int(input())
+# for i in range(m,n+1):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#         else:
+#             print(i)
+
+# m=int(input())
+# n=int(input())
+# count=0
+# for i in range(m,n+1):
+#     if i>1:
+#         for j in range(2,i):
+#                 if i%j==0:
+#                     break
+#         else:
+#             print(i)
+#             count+=1
+# print("prime numbers:",count)
+
+# a=153
+# temp=a
+# b=len(str(a))
+# d=0
+# while temp>0:
+#    c=temp%10 #3
+#    d+=c**b
+#    temp//=10
+#    print(temp,d)
+# if d==a:
+#     print(d,"arm")
+# else:
+#     print("not arm")
+
+
+# a=2
+# temp=a
+# c=a
+# leng=0
+# while temp>0:
+#     leng+=1
+#     temp//=10
+# tot=0
+# while c>0:
+#     e=c%10
+#     tot+=e**leng
+#     c=c//10
+# if tot==a:
+#     print(leng,tot)
+# else:
+#     print("not arm")
+    
+
+# m=int(input())
+# n=int(input())
+# for i in range(m,n+1):
+#     temp=i
+#     l=0
+#     if temp==0:
+#       l=1
+#     else:
+#       while temp >0:
+#          l+=1
+#          temp//=10
+#     sec=i 
+#     tot=0
+#     while sec>0:
+#           a=sec%10
+#           tot+=a**l
+#           sec//=10
+#     if tot==i:
+#       print(i)
+         
+
+# m=int(input())
+# n=int(input())
+# for i in range(m,n+1):
+#     temp=i
+#     l=0
+#     if temp==0:
+#         l=1
+#     else:
+#         while temp>0:
+#             l+=1
+#             temp//=10
+#     real=i
+#     tot=0
+#     while real>0:
+#         c=real%10
+#         tot+=c**l
+#         real//=10
+#     if tot==real:
+#         print(tot)
+
+
+# m=10
+# n=25
+# for i in range(m,n+1):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#         else:
+#             print(i)
+
+# import math
+# i=16
+# print(math.sqrt(i))
+
+# # last prime num
+# m=10
+# n=25
+# last=0
+# for i in range(m,n+1):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#         else:
+#             last=i
+# print(last)
+
+# name="krishna"
+# vowels="aeiouAEIOU"
+# for i in name:
+#     if i in vowels:
+#         print(i)
+#         break
+
+
+# name="Ramakrishna"
+# vowels="AEIOUaeiou"
+# last=" "
+# for i in name:
+#     last=i
+# print(last)
+
+# for i in range(2,11):
+#     if i%2==0:
+#         continue
+#     else:
+#         print(i)
+
+
+# m=1
+# n=10
+# comp=[]
+# prime=[]
+# for i in range(m,n+1):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                 comp.append(i)
+#                 break
+#         else:
+#             prime.append(i)
+# print(comp,prime)
+
+
+# m=int(input())
+# n=int(input())
+# for i in range(m,n+1):
+#     if i>1:
+#        for j in range(2,i): 
+#            if i % j==0:
+#                break
+#        else:
+#              print(i)
+#              break
+
+# m=int(input())
+# n=int(input())
+# count=0
+# for i in range(m,n+1):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#         else:
+#             count+=1
+# print(count)
+
+
+# m=int(input())
+# n=int(input())
+# for i in range(m,n+1):
+#     num=i 
+#     l=0
+#     while num>0:
+#         l+=1
+#         num //=10
+#     num2=i
+#     tot=0
+#     while num2>0:
+#         e=num2%10
+#         tot+=e**l
+#         num2 //=10
+#     if tot == i:
+#         print(tot)
+

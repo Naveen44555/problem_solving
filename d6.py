@@ -61,12 +61,12 @@
 #             print(i,"not prime")
 # prime(33)
 
-# 5. Print Armstrong Numbers from m to n Using Function
-m=53
-n=500
-k=[]
-while m>0:
-    for i in range(m,n+1):
+# # 5. Print Armstrong Numbers from m to n Using Function
+# m=53
+# n=500
+# k=[]
+# while m>0:
+#     for i in range(m,n+1):
 
 # # armstrong number check
 # m=153
@@ -200,5 +200,111 @@ while m>0:
 # else:
 #     print("not a palindrome")
 
-print("hbjkl")
-print("gvhbjnkml")
+
+# --------new --------new--------new--------new
+
+# def m(a,b):
+#     return a+b
+# print(m(2,3))
+
+# def even_odd(a):
+#     if a%2==0:
+#         print("even")
+#     else:
+#         print(a,"odd")
+# even_odd(15)
+
+
+# def leap(b):
+#     if (b%4==0 and b%100!=0) or (b%400==0):
+#         print("leap:",b)
+#     else:
+#         print("not leap",b)
+# leap(int(input()))
+
+
+# def prim(a):
+#     if a<=1:
+#         return False
+#     for j in range(2,a):
+#         if a%j==0:
+#             return False
+#     return True
+# n=int(input())
+# if prim(n):
+#     print(n,"is prime")
+# else:
+#     print("not")
+
+
+# a=1
+# B=20
+# for i in range(a,B+1):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%2==0:
+#                 break
+#         else:
+#             print(i)
+
+
+# def is_prime(a):
+#     if a<=1:
+#         return False
+#     for i in range(2,a):
+#         if a%i==0:
+#             return False
+#     else:
+#         return True
+# a=int(input())
+# if is_prime(a):
+#     print("prim")
+# else:
+#     print("not")
+
+# def arm(a,b):
+#     for i in range(a,b+1):
+#         temp=i
+#         l=0
+#         while temp>0:
+#             l+=1
+#             temp//=10
+#         dump=i
+#         tot=0
+#         while dump>0:
+#             c=dump%10
+#             tot+=c**l
+#             dump//=10
+#         if tot==i:
+#             print(tot)
+# arm(int(input()),int(input()))
+
+
+# # import math
+# a=29
+# l=int(math.log10(a))
+# print(l)
+
+
+# ----recursion
+# def greet(n):
+#     if n>5 : return
+#     print("hiii")
+#     greet(n+1)
+# greet(n=1)
+
+# def fact(n):
+#     if n==1:
+#         return 1
+#     return n*fact(n-1)
+# print(fact(5))
+
+
+# def fib(a):
+#     if a==0:
+#         return 0
+#     if a==1: return 1
+#     else:
+#         return fib(a-1)+fib(a-2)
+# print(fib(5))
+
