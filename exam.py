@@ -28,9 +28,9 @@ import copy
 # print(cc)
 
 
-bb={"name":"naveen","batch":53}
-cc={"village":"ndcl"}
-print(*bb,*cc)
-dd={**bb,**cc}
-print(dd)
+# bb={"name":"naveen","batch":53}
+# cc={"village":"ndcl"}
+# print(*bb,*cc)
+# dd={**bb,**cc}
+# print(dd)
 
