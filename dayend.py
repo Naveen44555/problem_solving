@@ -168,6 +168,18 @@
 # op=lambda x : x+2
 # print(op(4))
 
-def ad(a,b):
-    return a+b
-print(ad(2,8))
+# def ad(a,b):
+#     return a+b
+# print(ad(2,8))
+
+
+
+# a=int(input( ))
+# b=int(input( ))
+# for i in range(a,b+1):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#         else:
+#             print(i,end=" ")

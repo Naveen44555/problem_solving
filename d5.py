@@ -360,3 +360,94 @@
 #     if tot == i:
 #         print(tot)
 
+# # ------------------
+# # 2.
+# a=int(input())
+# b=int(input())
+# count=0
+# for i in range(a,b+1):
+#     if i > 1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#         else:
+#             count+=1
+# print(count)
+
+# # 3
+# a=int(input())
+# b=int(input())
+# for i in range(a,b+1):
+#     c=i
+#     len=0
+#     while c>0:
+#         len+=1
+#         c=c//10
+#     d=i
+#     tot=0
+#     while d>0:
+#         e=d%10
+#         tot+=e**len
+#         d//=10
+#     if tot == i:
+#       print(tot)
+ 
+# a=int(input())
+# b=a
+# l=0
+# while b>0:
+#     l+=1
+#     b//=10
+# c=a
+# tot=0
+# while c>0:
+#     d=c%10
+#     tot+=d**l
+#     c//=10
+# if tot == a:
+#     print(tot,"arm")
+# else:
+#     print(tot,"not")
+
+# a=int(input())
+# b=int(input())
+# last=0
+# for i in range(a,b+1):
+#     if i>1:
+#         for j in range(2,i):
+#             if i%j==0:
+#                 break
+#         else:
+#             last=i
+# print(last)
+            
+# a="krishna"
+# b="aeiou"
+# c=""
+# for i in a:
+#     if i in b:
+#         c=i
+#         # break
+# print(c)
+
+# b=int(input())
+# for i in range(1,b+1):
+#     if i%2!=0:
+#         print(i,end=" ")
+
+
+# m = int(input())
+# n = int(input())
+# prime = []
+# comp = []
+# for i in range(m, n+1):
+#     if i > 1:
+#         for j in range(2, i):
+#             if i % j == 0:
+#                 comp.append(i)
+#                 break
+#         else:
+#             prime.append(i)
+# print("Prime:", prime)
+# print("Composite:", comp)
+

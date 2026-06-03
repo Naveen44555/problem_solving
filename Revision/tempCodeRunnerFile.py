@@ -1,2 +1,2 @@
-t",mode="r")
-# print(s.read())
+# t",mode="r")
+# # print(s.read())
